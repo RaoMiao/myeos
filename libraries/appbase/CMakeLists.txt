@@ -9,3 +9,6 @@ add_library( appbase
 	     ${HEADERS}
 	   )
 
+
+set_target_properties( appbase PROPERTIES PUBLIC_HEADER "${HEADERS}" )
+
